@@ -1,0 +1,51 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    background-color: #6c5ce7;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color :#fff;
+    color: #6c5ce7
+}
+
+#cabecalho .nav .nav-link,
+.nav-cardapio .nav-link.active:hover,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.section-tittle{
+    font-family: "Pacifico", sans-serif;
+}
+
+#sobre-o-buffet,
+.navbar-toggler,
+#cardapio{
+    background-color: #ffd6f1;
+}
+
+
+.nav-cardapio .nav-link.active,
+#contato button{
+    background-color: #6c5ce7;
+    color: #fff;
+}
+
+.text-colored,
+.nav-cardapio .nav-link:hover{
+    color: #6c5ce7;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
