@@ -18,6 +18,10 @@ body{
     color: #fff;
 }
 
+.navbar-brand span{
+    color: orange;
+}
+
 .section-tittle{
     font-family: "Pacifico", sans-serif;
 }
@@ -27,7 +31,6 @@ body{
 #cardapio{
     background-color: #ffd6f1;
 }
-
 
 .nav-cardapio .nav-link.active,
 #contato button{
@@ -47,5 +50,27 @@ body{
 
 .social-links a{
     text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar .container{
+        flex-direction: column;
+    }
+    
+    .navbar-brand span{
+        display: block;
+    }
+
+    .navbar-brand{
+        text-align: center;
+    }
+
+    .navbar-toggler{
+        margin-top: 16px;
+    }
+
+    .carousel-item img{
+        height: 26  0px;
+    }
 }
 
