@@ -52,7 +52,7 @@ body{
     text-decoration: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 767px) {
     .navbar .container{
         flex-direction: column;
     }
@@ -74,3 +74,12 @@ body{
     }
 }
 
+@media screen and (min-width: 990px) and (max-width: 1200px){
+    .navbar .container{
+        flex-direction: column;
+    }
+
+    #menu-navegacao{
+        margin-top: 8px;
+    }
+}
